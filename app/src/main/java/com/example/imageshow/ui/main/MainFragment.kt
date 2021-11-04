@@ -68,7 +68,7 @@ class MainFragment : Fragment() {
             "https://friedmanamplification.com/images/guitars/Vintage_t/FRIEDMAN-VINTAGE-T--AMVB90_-1600-x-1200-front-min.jpg",
             "https://cdn.mos.cms.futurecdn.net/PFsaMHC88gSz2Czegzs5th-1024-80.jpg.webp"
         )
-        var mypick = Random.nextInt(0..list.size-1)
+        var mypick = Random.nextInt(0..list.size-1)   // pick an Int between 0 and the-size-of-the-list-minus-1
         Log.i("Frank", "mypick is $mypick")
 
         return list.get(mypick)
